@@ -1,0 +1,12 @@
+{
+  "hotspot": {
+    "correlation": 0.03183630515910222,
+    "p_value": 0.2836659771874094,
+    "n_positions": 1136
+  },
+  "rare": {
+    "correlation": 0.27521970008854596,
+    "p_value": 7.89962775731872e-17,
+    "n_positions": 884
+  }
+}

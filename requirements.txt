@@ -1,0 +1,18 @@
+# Python 3.14. PyTorch pinned to a CUDA 12.8 build for Blackwell-generation
+# GPUs; swap for the CPU wheel or your platform's CUDA index if needed
+# (see https://pytorch.org/get-started/locally/).
+--extra-index-url https://download.pytorch.org/whl/cu128
+torch==2.11.0
+
+numpy==2.5.0
+pandas==3.0.3
+scikit-learn==1.9.0
+scipy==1.18.0
+statsmodels==0.14.6
+matplotlib==3.11.0
+pyarrow==24.0.0
+
+# Notebook execution
+jupyter==1.1.1
+nbformat==5.10.4
+nbconvert==7.17.1

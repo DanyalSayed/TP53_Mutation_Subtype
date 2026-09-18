@@ -1,0 +1,5 @@
+Comparison,Weighted MCC,Unweighted MCC,Weighted accuracy,Unweighted accuracy,Interpretation
+Main (hotspot),0.0666,-0.0553,0.1322,0.1602,did not survive -- treat as artifact
+Main (rare),0.0261,0.1404,0.218,0.3908,did not survive -- treat as artifact
+CpG (hotspot),0.0893,0.061,0.0801,0.1063,robust -- conclusion unchanged
+CpG (rare),0.0,0.0,0.3846,0.3846,"did not survive -- degenerate (majority-reversion, n=24 too small)"

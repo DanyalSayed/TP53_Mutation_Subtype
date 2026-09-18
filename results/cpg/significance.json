@@ -1,0 +1,22 @@
+{
+  "hotspot": {
+    "level": "cluster (locus-level, NOT position_id-level or instance-level)",
+    "test": "mannwhitneyu (two-sided)",
+    "statistic": 277.0,
+    "p_value": 0.22703792074127027,
+    "n_cpg_positions": 12,
+    "n_noncpg_positions": 58,
+    "median_accuracy_cpg": 0.0,
+    "median_accuracy_noncpg": 0.0
+  },
+  "rare": {
+    "level": "cluster (locus-level, NOT position_id-level or instance-level)",
+    "test": "mannwhitneyu (two-sided)",
+    "statistic": 101.0,
+    "p_value": 0.14727653982503675,
+    "n_cpg_positions": 2,
+    "n_noncpg_positions": 65,
+    "median_accuracy_cpg": 0.6,
+    "median_accuracy_noncpg": 0.0
+  }
+}
