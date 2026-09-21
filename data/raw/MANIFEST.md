@@ -10,6 +10,8 @@ what was downloaded so the raw inputs can be reconstructed.
 In Cancer), gene page for **TP53**, one CDS mutation export per transcript
 isoform below. Requires a free COSMIC account (academic use).
 
+**COSMIC release:** v102 (GRCh38). **Accessed:** 8 June 2025.
+
 ## Required layout
 
 ```

@@ -32,6 +32,9 @@ notebooks/
   05_unweighted_robustness.ipynb    Main experiment retrained without class weighting
   07_repeated_splits.ipynb      Primary 21bp CNN on 5 additional locus-held-out
                                 splits (split-robustness check)
+  08_reference_base_baseline.ipynb  Reference-base lookup and position-aware logistic
+                                regressions on the six splits (does flanking context add
+                                signal beyond the mutated base?); CNN centre-base recovery
   06_make_figures.ipynb         Final publication figures/tables (reads only
                                 already-saved results, no new computation)
 
@@ -74,7 +77,7 @@ Training does not require a GPU but is substantially faster with one.
 3. Run the notebooks in this order (later notebooks read outputs saved by
    earlier ones rather than recomputing them; numeric order is *not* the
    dependency order):
-   `01` -> `02` -> `03` -> `04` -> `05` -> `04b` -> `04c` -> `07` -> `06`.
+   `01` -> `02` -> `03` -> `04` -> `05` -> `04b` -> `04c` -> `07` -> `08` -> `06`.
    Each writes its outputs under `results/`. This regenerates the
    instance-level and position-level files that are not tracked in git.
 

@@ -1,0 +1,5 @@
+dataset,comparison,diff_pp,ci_lo_pp,ci_hi_pp,n_loci
+hotspot,reference-base lookup minus majority class,8.36362666761472,2.7439442395656424,21.366073328231636,70
+hotspot,reference-base lookup minus CNN 21bp,60.08212530330368,34.569778298187316,75.11231136008344,70
+rare,reference-base lookup minus majority class,17.485182049110925,9.431192670004672,26.18746811449989,67
+rare,reference-base lookup minus CNN 21bp,31.498729889923794,20.15651033185391,43.020160181059794,67

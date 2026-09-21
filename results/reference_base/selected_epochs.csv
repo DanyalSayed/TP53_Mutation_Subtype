@@ -1,0 +1,15 @@
+run,dataset,best_epoch,stopped_epoch
+repeated split (seed 43),hotspot,1,16
+repeated split (seed 43),rare,48,50
+repeated split (seed 44),hotspot,1,16
+repeated split (seed 44),rare,13,28
+repeated split (seed 45),hotspot,17,32
+repeated split (seed 45),rare,7,22
+repeated split (seed 46),hotspot,4,19
+repeated split (seed 46),rare,24,39
+repeated split (seed 47),hotspot,5,20
+repeated split (seed 47),rare,4,19
+main run,hotspot,25,40
+main run,rare,38,50
+unweighted run,hotspot,1,16
+unweighted run,rare,7,22
